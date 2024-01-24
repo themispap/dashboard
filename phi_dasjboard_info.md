@@ -1,3 +1,5 @@
+This project is about the educational platform of ['Φ' maths & statistics lab](https://phi.edu.gr/) dashboard. The database contains the following tables:
+
 ### projects
 * project_id: The unique id of the project (key)
 * subject: The subject of the project
