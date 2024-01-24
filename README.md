@@ -6,6 +6,7 @@ The services provided by 'Φ' are
 * Courses for university students
 * Lessons for secondary school students
 
+The information is entered into the database as follows:
 * Each time the business undertakes a project, an entry is made in the projects table as well as an entry in the customers table of the database.
 * Each time a university student registers, a record is made in the students table as well as a record in the customer table of the database (university students are registered as both students and customers).
 * Every time a student enrolls, an entry is made in the students table and an entry is made in the customers table with their guardian's details.
