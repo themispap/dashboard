@@ -10,14 +10,16 @@ The information is entered into the database as follows:
 * Each time the business undertakes a project, an entry is made in the projects table as well as an entry in the customers table of the database.
 * Each time a university student registers, a record is made in the students table as well as a record in the customer table of the database (university students are registered as both students and customers).
 * Every time a student enrolls, an entry is made in the students table and an entry is made in the customers table with their guardian's details.
+* Courses taught in the current academic year are listed in the courses table
+* Lesson plans in the current academic year are listed in the plans table
+* For each course taught each day, the duration, date, student id, and course id are entered in the records table
+* The expenses of the business are entered in the payments table while the income is entered in the income table
 
 The database contains the following tables:
 
 ### projects
 * project_id: The unique id of the project (key)
 * subject: The subject of the project
-* grade:
-* school: 
 * customer_id: The customer id of the customers table 
 * price: the price charged for the project 
 * deadline: The deadline of the project 
@@ -27,9 +29,9 @@ The database contains the following tables:
 * price: The plan price
 * description: The plan description 
 * charge_type: Billing type (monthly, hourly) 
-* duration 
-* courses 
-* acad_year 
+* duration: The total weekly duration of the lessons of the plan
+* courses: The courses included in the plan
+* acad_year: The academic year of the plan
 ### courses
 * course_id: The unique id of the course (key) 
 * name: The name (title) of the course 
