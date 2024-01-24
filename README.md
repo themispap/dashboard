@@ -1,6 +1,12 @@
 # 'Φ' maths & statistics lab dashboard
 
 This project is about the dashboard of the educational platform of ['Φ' maths & statistics lab](https://phi.edu.gr/).
+The services provided by 'Φ' are
+* Data analysis pr;ojects
+* Courses for university students
+* Lessons for secondary school students
+
+
 The database contains the following tables:
 
 ### projects
